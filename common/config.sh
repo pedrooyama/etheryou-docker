@@ -1,0 +1,25 @@
+HOME=/src/app
+VOLUME_REPORT_DIR=$HOME/reports/
+BLOCKCHAIN_HOST="etheryou-blockchain"
+
+GIT_REPO="https://github.com/pedrooyama/etheryou.git"
+CONTRACT=EtherYou
+
+
+CONTRACT_ADDRESS_SERVER_FILE=$HOME/node/contract-address.js
+CONTRACT_ADDRESS_SERVER_PORT=8000
+
+GANACHE_JS=/app/ganache-core.docker.cli.js
+NETWORK_ID=8888
+GANACHE_PORT=8545
+NETWORK_NAME=ganache
+TEST_ACCOUNTS_BALANCE=0xffffffffffffffffffffffffff
+PRIVATE_KEY_A="0x3a99063719f865fedc940c28352280cd2847e6b1bf2c2ee716cc8cd261328d73"
+PRIVATE_KEY_B="0x4794e867e1ae222fcd73f2c597f2c4fe8e52d074c08844dc4347c5a0835a70ba"
+
+PUBLIC_KEY_A="0xA0bB52F4b4d73f712b424bA262fA6044271D2Da2"
+PUBLIC_KEY_B="0xAe05c04c73779CE480E2005e724dA770ACd504E9"
+
+# etheryou
+ETHERYOU_CONFIG_FILE=$HOME/etheryou/parameters/config.py
+ETHERYOU_USERS_FILE=$HOME/etheryou/repository/user_repository.py
